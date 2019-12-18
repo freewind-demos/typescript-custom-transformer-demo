@@ -1,18 +1,11 @@
-TypeScript Hello World Demo
+TypeScript Custom Transformer Demo
 ===========================
+
+如何使用typescript的Custom Transformer对typescript代码进行变换。
+
+似乎只能node换node，无法大改。
 
 ```
 npm install
 npm run demo
 ```
-
-Note:
-
-`esModuleInterop` is recommended to set to `true`,
-since we can have consistent importing syntax with babel,
-always use:
-
-```
-import some from 'some'
-```
-
